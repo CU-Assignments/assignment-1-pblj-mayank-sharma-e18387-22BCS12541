@@ -1,0 +1,198 @@
+Problem 1: String Analysis (Easy Level)
+
+Input:
+Enter a string: Hello World 2024!
+
+Output:
+Vowels: 3
+Consonants: 7
+Digits: 4
+Special Characters: 3
+
+Input:
+Enter a string: This is a test string. 123#$
+
+Output:
+Vowels: 4
+Consonants: 11
+Digits: 3
+Special Characters: 2
+
+Input:
+Enter a string: AaEeIiOoUu
+
+Output:
+Vowels: 10
+Consonants: 0
+Digits: 0
+Special Characters: 0
+
+Input:
+Enter a string: 1234567890
+
+Output:
+Vowels: 0
+Consonants: 0
+Digits: 10
+Special Characters: 0
+
+Input:
+Enter a string: !@#$%^&*()
+
+Output:
+Vowels: 0
+Consonants: 0
+Digits: 0
+Special Characters: 10
+
+Problem 2: Matrix Operations (Medium Level)
+
+Input:
+Enter dimensions of Matrix 1 (rows columns):
+2 2
+Enter elements of Matrix 1:
+1 2
+3 4
+Enter dimensions of Matrix 2 (rows columns):
+2 2
+Enter elements of Matrix 2:
+5 6
+7 8
+
+Output:
+Addition:
+6 8
+10 12
+Subtraction:
+-4 -4
+-4 -4
+Multiplication:
+19 22
+43 50
+
+Input:
+Enter dimensions of Matrix 1 (rows columns):
+3 2
+Enter elements of Matrix 1:
+1 2
+3 4
+5 6
+Enter dimensions of Matrix 2 (rows columns):
+2 3
+Enter elements of Matrix 2:
+7 8 9
+10 11 12
+
+Output:
+Addition not possible: Matrices have different dimensions.
+Subtraction not possible: Matrices have different dimensions.
+Multiplication:
+27 30 33
+61 68 75
+95 106 117
+
+Input:
+Enter dimensions of Matrix 1 (rows columns):
+2 3
+Enter elements of Matrix 1:
+1 2 3
+4 5 6
+Enter dimensions of Matrix 2 (rows columns):
+2 2
+Enter elements of Matrix 2:
+7 8
+9 10
+
+Output:
+Addition not possible: Matrices have different dimensions.
+Subtraction not possible: Matrices have different dimensions.
+Multiplication not possible: Number of columns in Matrix 1 must equal number of rows in Matrix 2.
+
+Problem 3: Basic Banking System (Hard Level)
+
+Input:
+1
+John Doe
+12345
+1000
+2
+12345
+500
+3
+12345
+2000
+3
+12345
+200
+4
+
+Output:
+Account created successfully!
+
+Deposit successful! Current Balance: 1500
+
+Error: Insufficient funds. Current Balance: 1500
+
+Withdrawal successful! Current Balance: 1300
+
+Exiting Banking System.
+
+Input:
+1
+Jane Smith
+54321
+2000
+3
+54321
+2500
+2
+54321
+1000
+4
+
+Output:
+Account created successfully!
+
+Error: Insufficient funds. Current Balance: 2000
+
+Deposit successful! Current Balance: 3000
+
+Exiting Banking System.
+
+Input:
+1
+Test User
+98765
+500
+2
+98765
+-100
+3
+98765
+-50
+4
+
+Output:
+Account created successfully!
+Invalid deposit amount.
+Invalid withdrawal amount.
+Exiting Banking System.
+
+Input:
+1
+Test User
+98765
+500
+2
+11111
+100
+3
+11111
+100
+4
+
+Output:
+Account created successfully!
+Account not found.
+Account not found.
+Exiting Banking System.
